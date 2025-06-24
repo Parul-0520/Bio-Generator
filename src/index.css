@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --p: #000000;
+  --pc: #ffffff;
+  --s: #f3f3f3;
+  --sc: #111111;
+  --b1: #ffffff;
+  --b2: #f7f7f7;
+  --b3: #eeeeee;
+  --bc: #cccccc;
+  --in: #000000;
+  --inc: #ffffff;
+  --su: #28a745;
+  --suc: #ffffff;
+  --wa: #ffc107;
+  --wac: #000000;
+  --er: #dc3545;
+  --erc: #ffffff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/img2.jpg'); /* ✅ keep in public/ folder */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+* {
+  --b1: #ffffff !important;
+  --b2: #f7f7f7 !important;
+  --b3: #e7e7e7 !important;
+  --bc: #000000 !important;
+  --p: #ff69b4 !important;
+  --pc: #ffffff !important;
+  --s: #eeeeee !important;
+  --sc: #000000 !important;
+  --a: #0077ff !important;
+  --ac: #ffffff !important;
+  --n: #999999 !important;
+  --nc: #000000 !important;
+}
