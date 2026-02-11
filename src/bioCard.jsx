@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import { FaRegCopy } from "react-icons/fa6";
+import { FaRegCopy } from "@react-icons/all-files/fa/FaRegCopy";
 
 const BioCard = forwardRef(({ bio, copied, onCopy, onDownload }, ref) => {
   return (
